@@ -1,3 +1,13 @@
+smsc-test-server (1.1-0) ostdlabs-unstable; urgency=low
+
+  [ Jenkins ]
+  * Build #2. Started by user aakhmerov.
+
+  [ Askar ]
+  * 1. adjust readme
+
+ -- Askar <jenkins>  Sat, 13 Sep 2014 19:00:05 +0200
+
 smsc-test-server (0.1-0) ostdlabs-unstable; urgency=low
 
   * First build
