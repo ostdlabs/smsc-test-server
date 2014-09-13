@@ -1,0 +1,13 @@
+Source: smsc-test-server
+Section: misc
+Priority: extra
+Maintainer: ECA Team <eca@ostdlabs.com>
+Build-Depends: cdbs, debhelper (>= 7.0.50~)
+
+Package: smsc-test-server
+Architecture: all
+Description: test server to simulate smsc integration
+
+Package: smsc-test-server-libs
+Architecture: all
+Description: libraries for smsc-test-server
