@@ -1,2 +1,3 @@
 smsc-test-server-rest/target/smsc-test-server-rest.jar usr/share/ostdlabs/smsc-test-server/
 nginx/* usr/share/ostdlabs/smsc-test-server/nginx/
+environment/* usr/share/ostdlabs/smsc-test-server/environment

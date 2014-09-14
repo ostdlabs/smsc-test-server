@@ -34,6 +34,10 @@ case "$1" in
             ENV_TYPE=$(cat /usr/share/ostdlabs/smsc-test-server/environment)
         fi
 
+        if [ -r /usr/share/ostdlabs/smsc-test-server/environment/smsc-test-server.$ENV_TYPE.properties ] ; then
+            ln -sf /usr/share/ostdlabs/smsc-test-server/lib/environment.properties /usr/share/ostdlabs/smsc-test-server/environment/smsc-test-server.$ENV_TYPE.properties
+        fi
+
         if [ -r /usr/share/ostdlabs/smsc-test-server/nginx/smsc-test-server.${ENV_TYPE} ]; then
             ln -sf /usr/share/ostdlabs/smsc-test-server/nginx/smsc-test-server.${ENV_TYPE} /etc/nginx/sites-available/smsc-test-server
             ln -sf /etc/nginx/sites-available/smsc-test-server /etc/nginx/sites-enabled/smsc-test-server
