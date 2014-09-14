@@ -30,8 +30,8 @@ case "$1" in
         chown -R smsc-test-server:smsc-test-server /usr/share/ostdlabs/smsc-test-server
 
         ENV_TYPE="testing"
-        if [ -r /usr/share/ostdlabs/smsc-test-server/environment ] ; then
-            ENV_TYPE=$(cat /usr/share/ostdlabs/smsc-test-server/environment)
+        if [ -r /usr/share/ostdlabs/smsc-test-server/environment.type ] ; then
+            ENV_TYPE=$(cat /usr/share/ostdlabs/smsc-test-server/environment.type)
         fi
 
         if [ -r /usr/share/ostdlabs/smsc-test-server/environment/smsc-test-server.$ENV_TYPE.properties ] ; then
