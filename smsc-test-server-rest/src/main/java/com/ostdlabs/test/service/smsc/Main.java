@@ -27,6 +27,7 @@ public final class Main {
     private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
     private static final int MIN_THREADS = 10;
     private static final int MAX_THREADS = 100;
+    private static final String HOST = "0.0.0.0";
 
     /**
      * Hidden constructor, just to indicate that no one should instantiate entry point
@@ -66,7 +67,7 @@ public final class Main {
         SelectChannelConnector connector =
                 new SelectChannelConnector();
         connector.setPort(PORT);
-        connector.setHost("localhost");
+        connector.setHost(HOST);
         return connector;
     }
 
