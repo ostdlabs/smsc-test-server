@@ -34,7 +34,7 @@ public final class Main {
     private Main() {
     }
 
-    private static final int PORT = 9003;
+    private static final int PORT = 9004;
     private static final String WEB_XML =
             "WEB-INF/web.xml";
 
