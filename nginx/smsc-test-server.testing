@@ -22,7 +22,7 @@ server {
     }
 
     location / {
-        proxy_pass http://localhost:9003/services/;
+        proxy_pass http://localhost:9004/services/;
         access_log /var/log/nginx/smsc-api.access.log;
         error_log /var/log/nginx/smsc-api.error.log;
         proxy_redirect          off;
