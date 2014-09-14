@@ -1,3 +1,14 @@
+smsc-test-server (2.1-0) ostdlabs-unstable; urgency=low
+
+  [ Jenkins ]
+  * Build #3. Started by user aakhmerov.
+
+  [ Askar ]
+  * 1. switch to port to empty one
+  * 1. update nginx configurations
+
+ -- Askar <jenkins>  Sun, 14 Sep 2014 15:44:51 +0200
+
 smsc-test-server (1.1-0) ostdlabs-unstable; urgency=low
 
   [ Jenkins ]
